@@ -3,40 +3,15 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="버튼1"
-            android:layout_weight="1" />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="버튼2"
-            android:layout_weight="3"/>
-    </LinearLayout>
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="버튼3"
-        android:layout_weight="1"/>
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="버튼3"
-        android:layout_weight="1"/>
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="버튼3"
-        android:layout_weight="1"/>
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="버튼4"/>
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="#ff0000"
+        android:text="민주"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:gravity="right|bottom"/>
 
 </LinearLayout>

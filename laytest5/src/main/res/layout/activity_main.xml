@@ -30,5 +30,6 @@
             android:textSize="20dp"/>
         <EditText android:id="@+id/edtTel" android:inputType="phone"/>
     </TableRow>
-    <Button android:text="확인하기"/>
+    <Button android:text="확인하기"
+        android:id="@+id/btn"/>
 </TableLayout>
